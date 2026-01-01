@@ -1,3 +1,6 @@
+NOTA: USAR LOS ARCHIVOS SUGERIDOS, no los del readme
+
+
 
 Visualize your ChatGPT and Claude's usage.
 
