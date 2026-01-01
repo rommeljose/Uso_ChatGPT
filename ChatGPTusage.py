@@ -3,10 +3,13 @@ local_tz = 'US/Pacific' # change to your local timezone.
 # pytz.all_timezones # uncomment to see a list of all supported timezones.
 import json
 
+
+
 with open(f'{convo_folder}/conversations.json', 'r', encoding='utf-8') as f:
     oai_convs = json.load(f)
 
-import pytz # pyright: ignore[reportMissingModuleSource]
+
+import pytz
 
 from datetime import datetime, timezone, timedelta
 
@@ -84,6 +87,7 @@ def create_year_heatmap(convo_times, year):
     plt.show()
 
 
+    
 # ===============================
 # EJECUCIÓN
 # ===============================
